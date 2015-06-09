@@ -77,11 +77,8 @@
 		F8B657401B2016E60002B990 /* LearnSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F8B657431B2016E60002B990 /* AppDelegate.swift */,
 				F8B657451B2016E60002B990 /* ViewController.swift */,
 				F8B657471B2016E60002B990 /* Main.storyboard */,
-				F8B6574A1B2016E60002B990 /* Images.xcassets */,
-				F8B6574C1B2016E60002B990 /* LaunchScreen.xib */,
 				F8B657411B2016E60002B990 /* Supporting Files */,
 			);
 			path = LearnSwift;
@@ -90,6 +87,9 @@
 		F8B657411B2016E60002B990 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8B657431B2016E60002B990 /* AppDelegate.swift */,
+				F8B6574A1B2016E60002B990 /* Images.xcassets */,
+				F8B6574C1B2016E60002B990 /* LaunchScreen.xib */,
 				F8B657421B2016E60002B990 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -342,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LearnSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +413,7 @@
 				F8B6575F1B2016E60002B990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8B657601B2016E60002B990 /* Build configuration list for PBXNativeTarget "LearnSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				F8B657621B2016E60002B990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
